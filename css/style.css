@@ -1,5 +1,61 @@
-body{
+body {
+    color: white;
     margin: 0px;
     padding: 0px;
     background: url(/img/gym.jpg);
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 24px;
+    top: 20px;
+    border: 2px solid red;
+}
+
+.mid {
+    display: block;
+    margin: 20px auto;
+    width: 40%;
+    border: 2px solid green;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    border: 2px solid yellow;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+
+.left img{
+    width: 70px;
+    filter: invert(100%);
+    padding-left : 35px ;
+}
+.left div{
+    font-size: 24px;
+    margin: 10px 2px;
+    text-align: center;
 }
